@@ -1,0 +1,26 @@
+/*
+#5e7c88 med blue
+#363f45 dark blue
+#feb41c orange
+*/
+body {
+	font-family:Helvetica,Verdana,Arial,sans-serif;
+}
+
+p {
+	font-size:14px;
+}
+
+h1 {
+	font-size:22px;
+	color:#363f45;
+}
+
+h2 {
+	font-size:18px;
+	color:#5e7c88
+}
+
+h3 {
+	font-size:16px;
+}
