@@ -24,3 +24,24 @@ h2 {
 h3 {
 	font-size:16px;
 }
+
+blockquote{
+	font-size:16px;
+	text-align:center;
+	font-style:italic;
+}
+
+.copyright{
+	font-size:9px;
+	text-align:center;
+}
+
+.popout{
+	font-size:16px;
+	font-weight:bold;
+}
+
+a:hover{
+	color:#feb41c;
+	text-decoration:none;
+}
