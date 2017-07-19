@@ -20,6 +20,32 @@ td{
 	padding:5px;
 }
 
+thead{
+	color:#0000ff;
+}
+
+tbody{
+	color:#ff0000 ;
+}
+
+tfoot{
+	color:#00ff00;
+}
+
+.season{
+	background-color:#acefb3;
+}
+
+.temps{
+	background-color:#f0ef71;
+}
+
+
+.rainfall{
+	background-color:#71c8f0;
+}
+
+
 </style>
 </head>
 
@@ -35,13 +61,22 @@ td{
   Year-round San Francisco Temperatures
 </caption>
 
+<colgroup>
+<col class="season"/>
+<col span="2" class="temps"/>
+<col class="rainfall"/>
+</colgroup>
+
+<thead>
   <tr>
 	<th scope="col">Season</th>
 	<th scope="col">High Temp</th>
 	<th scope="col">Low Temp</th>
 	<th scope="col">Average Rain</th>
   </tr>
-  
+</thead>
+
+<tbody>  
   <tr>
 	<td>Winter</td>
 	<td>59</td>
@@ -68,11 +103,14 @@ td{
 	<td>48</td>
 	<td>3 inches</td>
   </tr>
-  
+</tbody>
+
+<tfoot>
   <tr>
 	<td colspan="4">dont forget a coat!</td>
   </tr>
-  
+</tfoot>
+
 	</table>
 </body>
 </html>
