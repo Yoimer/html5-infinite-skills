@@ -30,6 +30,24 @@ blockquote{
 	text-align:center;
 	font-style:italic;
 }
+table{
+	margin:auto;
+}
+
+caption{
+	color:#5e7c88;
+	font-size:18px;
+	font-weight:bold;
+}
+
+th{
+	text-align:right;
+}
+
+th,td{
+	padding:4px;
+}
+
 
 .copyright{
 	font-size:9px;
