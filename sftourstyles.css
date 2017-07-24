@@ -10,7 +10,7 @@ body {
 }
 
 header{
-	
+	background-color:#363f45;
 }
 
 section{
@@ -26,6 +26,10 @@ footer{
 	padding:10px;
 }
 
+p,h1,h3,h4,h5,h6{
+	padding-left:15px;
+	padding-right:15px;
+}
 
 p {
 	font-size:14px;
@@ -53,6 +57,7 @@ blockquote{
 	margin-left:20px;
 	margin-right:20px;
 	float:right;
+	padding-top:150px;
 }
 table{
 	margin:auto;
@@ -72,11 +77,31 @@ th,td{
 	padding:4px;
 }
 
+nav ul li{
+	display:inline;
+}
+
+nav ul li a{
+	color:white;
+	text-decoration:none;
+	padding:2px 10px;
+}
+
 #page{
 	width:800px;
 	margin:0 auto;
 	background-color:#5e7c88;
 }
+
+.imgleft{
+	float:left;
+	padding-left:15px;
+}
+
+.imgright{
+	float:right;
+}
+
 
 .copyright{
 	font-size:9px;
@@ -92,3 +117,4 @@ a:hover{
 	color:#feb41c;
 	text-decoration:none;
 }
+
