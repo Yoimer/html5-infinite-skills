@@ -5,7 +5,27 @@
 */
 body {
 	font-family:Helvetica,Verdana,Arial,sans-serif;
+	margin:0;
+	padding:0;
 }
+
+header{
+	
+}
+
+section{
+	width:600px;
+	float:left;
+	background-color:white;
+}
+
+footer{
+	clear:both;
+	background-color:#feb41c;
+	height:30px;
+	padding:10px;
+}
+
 
 p {
 	font-size:14px;
@@ -29,6 +49,10 @@ blockquote{
 	font-size:16px;
 	text-align:center;
 	font-style:italic;
+	width:160px;
+	margin-left:20px;
+	margin-right:20px;
+	float:right;
 }
 table{
 	margin:auto;
@@ -48,6 +72,11 @@ th,td{
 	padding:4px;
 }
 
+#page{
+	width:800px;
+	margin:0 auto;
+	background-color:#5e7c88;
+}
 
 .copyright{
 	font-size:9px;
