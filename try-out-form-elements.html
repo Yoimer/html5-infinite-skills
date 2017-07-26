@@ -4,26 +4,38 @@
 <title>try out form elements</title>
 <style>
 
+#survey{
+	width:300px;
+	margin:auto;
+}
 </style>
 </head>
 
 <body>
 <h1>form elements</h1>
+
+<div id="survey">
 <form action="mailto:someone@somewhere.com" method="post" name="survey">
+
+<fieldset>
+<legend>Personal Data</legend>
 Name<input type="text" name="name"/>
 <br/>
-E-mail <input type="text" name="email"/>
+E-mail <input type="email" name="email"/>
 <br/><br/>
 
 Your Gender:<br/>
-Male <input type="radio" name="gender" value="m"/>
+<label for="male"> Male </label> <input type="radio" name="gender" value="m" id="male"/>
 <br/>
 Female <input type="radio" name="gender" value="f" checked="checked"/>
-<br/> <br/>
-
- Do you own a...<br/>
+<br/> 
+</fieldset>
+<br/>
+<fieldset>
+<legend>Survey Questions</legend>
+Do you own a...<br/>
 Car <input type="checkbox" name="own" value="car"/>
- <br/>
+<br/>
 Mansion <input type="checkbox" name="own" value="mansion" checked="checked" />
  <br/>
 Yacht <input type="checkbox" name="own" value="yacht"/>
@@ -43,9 +55,13 @@ Your favorite color:
 Comments <br/>
 <textarea rows="8" cols="25" name="comments">your comments here...</textarea>
 <br/><br/>
+</fieldset>
+
 <input type="hidden" name="surveynumber" value="a07"/>
-<input type="submit" name="Send"/><input type="reset"value="Clear form"/>
+<input type="submit" name="Send"/>
+<input type="reset" value="Clear form"/>
 </form>
 
+</div>
 </body>
 </html>
