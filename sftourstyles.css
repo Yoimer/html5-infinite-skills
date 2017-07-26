@@ -89,6 +89,22 @@ nav ul li a{
 	border-radius: 4px 10px 0 0;
 }
 
+fieldset{
+	border:none;
+	margin:5px 0;
+}
+
+form li{
+	list-style:none;
+	margin:8px;
+}
+
+legend{
+	font-weight:bold;
+	color:#5e7c88;
+}
+
+
 #page{
 	width:800px;
 	margin:0 auto;
